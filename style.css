@@ -1,0 +1,272 @@
+
+@font-face {
+    font-family: LibreBaskerville;
+    src: url("/fonts/LibreBaskerville-VariableFont_wght.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 100 700;
+}
+@font-face {
+    font-family: LibreBaskerville;
+    src: url("/fonts/LibreBaskerville-Italic-VariableFont_wght.ttf") format("truetype");
+    font-style: italic;
+}
+
+.fondomain
+{
+    background-image: url(/img/fondopuertaroja.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body
+{
+    font-family: LibreBaskerville;
+    font-style: normal;
+    font-weight: 200;
+    color:#423122;
+}
+
+body a
+{
+    font-family: LibreBaskerville;
+    font-style: italic;
+    color: rgb(105, 35, 22);
+}
+
+.bannerprinc
+{
+  max-width: 70%;
+  margin:auto;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar
+{
+ width: 85%;
+  background-color: #916d55;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  border-radius: 15px; 
+}
+
+.navbar a
+{
+    float: left;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px; 
+}
+
+.navbar hover
+{
+ width: 85%;
+  background-color: #6e4534;
+  color: #e4cfb5;
+}
+
+.navbar .active
+{
+    background-color:#b37247;   
+}
+
+.botonescomic
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 60%;
+}
+.botonescomiccaja
+{
+    background-color: #e4cfb5;
+    color:#423122;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    width: 30%;
+    flex: 2 1 100px;
+}
+.botonescomic img
+{
+    justify-content: center;
+    width: 50%;
+}
+
+img
+{
+    width: 100%;
+    height: auto;
+}
+
+.logotroll
+{
+    border-radius: 50%;
+}
+/*---------------Yo vs unas flexboxes con texto para las paginas-------------------------*/
+
+.cont1
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 100%;
+}
+
+.seccion
+{
+    background-color: #e4cfb5;
+    color:#423122;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    width: 30%;
+    flex: 2 1 100px;
+}
+
+.seccion1
+{
+    background-color: #e4cfb5;
+    color:#423122;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    width: 30%;
+    flex: 1 1 100px;
+}
+
+.seccion2
+{
+    background-color: #e4cfb5;
+    color:#423122;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    width: 30%;
+    flex: 0 1 100px;
+    align-self: right;
+}
+
+/*------------------------CONTENEDORES PARA PAGINAS DEL COMIC-------------------------*/
+
+.contenedor
+{
+    background-color: #e4cfb5;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+}
+
+.caja
+{
+    justify-content: center;
+}
+
+.caja img
+{
+    display:block;
+    width: 100%;
+    height: auto;
+    gap: 0;
+}
+
+/*---------------------------TRIGERSSSSS--------------------------*/
+
+.cajatrigger
+{
+  justify-content: center;
+}
+
+.cajatrigger img
+{
+    display:block;
+    width: 100%;
+    height: auto;
+    gap: 0;
+
+}
+
+.cajatrigger2
+{
+    justify-content: center;
+    display:block;
+}
+
+.cajatrigger2 img
+{
+    display:block;
+    width: 100%;
+    height: auto;
+    gap: 0;
+    
+}
+
+.cajatrigger2a
+{
+    justify-content: center;
+    display:block;
+}
+
+.cajatrigger2a img
+{
+    display:block;
+    width: 100%;
+    height: auto;
+    gap: 0;
+    
+}
+
+.cajatrigger2b
+{
+    justify-content: center;
+    display:block;
+}
+
+.cajatrigger2b img
+{
+    display:block;
+    width: 100%;
+    height: auto;
+    gap: 0;
+    
+}
+
+.cajatrigger3
+{
+    justify-content: center;
+    display:block;
+}
+
+.cajatrigger3 img
+{
+    display:block;
+    width: 100%;
+    height: auto;
+    gap: 0;
+    
+}
