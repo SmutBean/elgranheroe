@@ -10,6 +10,11 @@
     src: url("https://smutbean.github.io/elgranheroe/fonts/LibreBaskerville-Italic-VariableFont_wght.ttf") format("truetype");
     font-style: italic;
 }
+@font-face {
+    font-family: PirataOne;
+    src: url("https://smutbean.github.io/elgranheroe/fonts/PirataOne-Regular.ttf") format("truetype");
+    font-style: normal;
+}
 
 .fondomain
 {
@@ -18,7 +23,13 @@
     background-attachment: fixed;
     background-size: cover;
 }
-
+h1
+{
+    font-family: PirataOne;
+    font-style: normal;
+    font-weight: 300;
+    color:#423122;
+}
 body
 {
     font-family: LibreBaskerville;
@@ -33,7 +44,15 @@ body a
     font-style: italic;
     color: rgb(105, 35, 22);
 }
-
+body a :hover
+{
+    font-family: LibreBaskerville;
+    font-style: italic;
+    text-decoration:none;
+    background-color: #421e18;
+    color: #e4cfb5;
+    border-radius: 3px;
+}
 .bannerprinc
 {
   max-width: 70%;
