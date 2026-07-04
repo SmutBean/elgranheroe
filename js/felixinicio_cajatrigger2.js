@@ -16,7 +16,7 @@ ScrollTrigger.create({
   onEnterBack() { audio2.play() },
   onLeaveBack() { audio2.pause() }, 
   
-  markers: true,
+  /*markers: true,*/
   scrub: true
   
 })
@@ -33,7 +33,7 @@ ScrollTrigger.create({
   onEnterBack() { audio2a.play() },
   onLeaveBack() { audio2a.pause() },
   
-  markers: true,
+  /*markers: true,*/
   scrub: true
   
 })
@@ -50,7 +50,7 @@ ScrollTrigger.create({
   onEnterBack() { audio2b.play() },
   onLeaveBack() { audio2b.pause() },
   
-  markers: true,
+  /*markers: true,*/
   scrub: true
 })
 
