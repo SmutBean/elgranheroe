@@ -13,6 +13,6 @@ ScrollTrigger.create({
   onEnterBack() { audio3.currentTime = 0, audio3.play() },
   onLeaveBack() { audio3.pause() },
   
-  markers: true
+  /*markers: true*/
   
 })
